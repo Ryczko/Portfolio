@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer{
+  overflow: hidden;
+  position: relative;
+
+   img{
+     
+  
+      width: 100%;
+      position: relative;
+      top:20px;
+    
+   }
+   p{
+      position: absolute;
+      z-index: 100;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px;
+      color: white;
+      @media (max-width: 767px){
+         display: none;
+     }
+   }
+   
+}

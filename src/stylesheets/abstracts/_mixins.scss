@@ -1,0 +1,13 @@
+@mixin title {
+  flex-basis: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        color:$light-blue;
+        font-size: 50px;
+        margin-bottom: 30px;
+       
+        @media (max-width: 575px) { 
+
+          font-size:40px;
+         }
+}

@@ -1,0 +1,79 @@
+.knowladge{
+    background-color: $light-blue;
+    position: relative;
+    margin-top: 100px;
+    z-index: -99;
+   
+    &__wrapper{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    &:before {
+        background: $light-blue;
+        border-radius: 50% / 10%;
+        bottom: -10%;
+        content: '';
+        left: -12.5%;
+        position: absolute;
+        top: -10%;
+        width: 125%;
+        z-index: -99;
+    }
+
+
+
+
+    h1,h2{
+        @include title;
+        color: white;
+        padding-top: 50px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    &__content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+        &-items{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        &-img{
+            width: 50%;
+        }
+        
+
+        @media (max-width: 767px){
+            flex-direction: column-reverse;
+            &-img{
+                width: 90%;
+                margin: 0 auto 50px auto;
+                
+            }
+        }
+    }
+    &__others{
+     
+        display: flex;
+        justify-content: center;
+        &-item{
+            width: 100px;
+            height: 120px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin: 0 30px;
+        }
+
+        @media (max-width: 575px) { 
+            flex-direction: column;
+            align-items: center;
+           }
+    }
+}
+

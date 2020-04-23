@@ -1,0 +1,27 @@
+.socials{
+
+display: flex;
+margin-top: 80px;
+justify-content: center;
+
+
+    &__item{
+        cursor: pointer;
+
+        &:hover{
+            img{
+                transform: scale(0.95);
+            }
+        }
+        img{
+            width: 130px;
+            margin: 25px;
+            transition: .4s;
+
+            @media (max-width: 575px) { 
+                width: 90px;
+                margin:10px;
+               }
+        }
+    }
+}

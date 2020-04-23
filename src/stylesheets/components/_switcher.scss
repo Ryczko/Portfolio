@@ -1,0 +1,65 @@
+$input-bg-static: #ddd;
+$input-bg-pseudo-active: #43A047;
+$input-bg-pseudo-static: #E53935;
+
+
+$input-width: 8rem; // adjust only this number for dimensions
+
+$input-radius: calc( #{$input-width} / 2 );
+$input-height: calc( #{$input-width} / 2 );
+
+
+.switcher {
+  
+  padding: 2rem 0;
+  text-align: center;
+  position: absolute;
+  top:0;
+  right: 30px;
+ 
+
+  input[type="checkbox"] {
+    
+    cursor: pointer;
+    position: relative;
+    appearance: none;
+    width: $input-width;
+    height: $input-height;
+    background-color: $input-bg-static;
+    border-radius: $input-radius;
+    outline: none; // bad accessibility
+    transition: background 450ms ease;
+    box-shadow: 0 0 0 3px darken($input-bg-static, 7.5%);
+    
+    &:before, &:after {
+      position: absolute;
+      display: block;
+      content: "";
+      border-radius: 100%;
+      transition:
+        background 450ms ease,
+        transform 450ms ease;
+    }
+    
+    &:before {
+      width: calc( #{$input-width} / 2 );
+      height: $input-height;
+      background-image: url('../../img/uk-flag.png');
+      background-size: 100%;
+    }
+    
+    // active state
+    &:checked {
+      
+      &:before {
+        background-image: url('../../img/poland-flag.png');
+
+        transform: translateX(100%);
+      }
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,61 @@
+
+.home-btn{
+    
+    font-size: 16px;
+    border: 0.3em solid white;
+    border-radius: 0.5em;
+    padding:15px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    overflow: hidden;
+   transition: .4s;
+    margin: 20px auto;
+a{
+    color:white;
+    transition: .4s;
+}
+    
+    span {
+        position: absolute;
+        width: 25%;
+        height: 100%;
+        background-color: white;
+        transform: translateY(150%);
+        border-radius: 50%;
+        left: calc((var(--n) - 1) * 25%);
+        transition: 0.5s;
+        transition-delay: calc((var(--n) - 1) * 0.10s);
+        will-change: transform;
+        z-index: -1;
+    }
+    &:hover{
+        
+        transform: scale(0.99);
+        a{
+            color: $light-blue;
+        }
+        span {
+            transform: translateY(0) scale(2);
+        }
+      
+    }
+    span:nth-child(1) {
+        --n: 1;
+    }
+    
+    span:nth-child(2) {
+        --n: 2;
+    }
+    
+    span:nth-child(3) {
+        --n: 3;
+    }
+    
+    span:nth-child(4) {
+        --n: 4;
+    }
+}
