@@ -9,6 +9,7 @@ function Projects(props) {
             key={el.title}
             title={el.title}
             description={el.description}
+            big={staticItems.projects.projectsItems[index].big}
             bg={staticItems.projects.projectsItems[index].bg}
             link={staticItems.projects.projectsItems[index].to} />
 
@@ -18,7 +19,7 @@ function Projects(props) {
     return (
         <div className="projects" id="projects">
             <h1 data-aos="fade-down" data-aos-once="true">{props.content.h1}</h1>
-            <div className="projects__items" data-aos="flip-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="200">
+            <div className="projects__items" data-aos="fade-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="200">
                 {items}
             </div>
         </div>

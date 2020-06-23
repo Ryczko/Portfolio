@@ -54,8 +54,8 @@
     background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png');
   }
   .waveAnimation .waveTop {
-    //will-change: transform;
-  //animation: move-wave 3s;
+    will-change: transform;
+  animation: move-wave 3s;
   //  -webkit-animation: move-wave 3s;
   //  -webkit-animation-delay: 1s;
   // animation-delay: 1s ;
@@ -65,8 +65,8 @@
     background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png');
   }
   .waveAnimation .waveMiddle {
-    //will-change: transform;
-   // animation: move_wave 10s  infinite linear;
+    will-change: transform;
+   animation: move_wave 10s  infinite linear;
   }
   .waveBottom {
     background-size: 50% 100px;

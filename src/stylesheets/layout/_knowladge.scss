@@ -2,7 +2,7 @@
     background-color: $light-blue;
     position: relative;
     margin-top: 100px;
-    z-index: -99;
+   
    
     &__wrapper{
         max-width: 1400px;
@@ -63,15 +63,16 @@
         display: flex;
         justify-content: center;
         &-item{
-            width: 100px;
-            height: 120px;
+            width: 80px;
+            height: 100px;
             background-size: 100%;
             background-repeat: no-repeat;
             margin: 0 30px;
         }
 
         @media (max-width: 575px) { 
-            flex-direction: column;
+            flex-wrap: wrap;
+            
             align-items: center;
            }
     }

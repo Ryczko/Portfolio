@@ -6,6 +6,16 @@ export const staticItems = {
     projects: {
         projectsItems: [
             {
+                bg: "burger",
+                to: "https://ryczko.github.io/Burger-app/",
+                big: true
+            },
+            {
+                bg: "labirynt",
+                to: "#projects",
+                big: true
+            },
+            {
                 bg: "corona",
                 to: "https://ryczko.github.io/Coronavirus-react/"
             },

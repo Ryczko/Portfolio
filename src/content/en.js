@@ -37,6 +37,19 @@ export const en = {
         h1: "projects",
         projectsItems: [
             {
+                title: "Burger app",
+                description: "Burger builder with the possibility of placing orders, adn checking orders history (during construction)",
+                bg: "burger",
+                to: "https://ryczko.github.io/Coronavirus-react/"
+            },
+            {
+                title: "Labirynth game service",
+                description: "Service with a board game that allows you to play online (during construction)",
+                bg: "corona",
+                to: "https://ryczko.github.io/Coronavirus-react/"
+            },
+            {
+
                 title: "Coronavirus app",
                 description: "Stats, country ranking, and searching informations about Coronavirus",
                 bg: "corona",

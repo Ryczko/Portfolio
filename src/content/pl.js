@@ -18,9 +18,9 @@ export const pl = {
             title1: 'Szybkość',
             description1: 'Swoją pracę wykonuję tak szybko, jak to możliwe',
             title2: "Dokładność",
-            description3: "Całą swoją uwagę poświęcam aktualnemu zadaniu",
+            description2: "Całą swoją uwagę poświęcam aktualnemu zadaniu",
             title3: "Responsywność",
-            description2: "Tworzę witryny dobrze wyglądające na najbardziej popularnych urządzeniach",
+            description3: "Tworzę witryny dobrze wyglądające na najbardziej popularnych urządzeniach",
         }
     },
 
@@ -34,6 +34,18 @@ export const pl = {
     projects: {
         h1: "projekty",
         projectsItems: [
+            {
+                title: "Burger app",
+                description: "Aplikacja pozwalająca stworzyć swojego burgera, złożyć zamówienie, oraz sprawdzić historię zamówień (w trakcie budowy)",
+                bg: "burger",
+                to: "https://ryczko.github.io/Coronavirus-react/"
+            },
+            {
+                title: "Labirynt",
+                description: "Serwis z grą planszową, pozwalający na grę online (w trakcie budowy)",
+                bg: "corona",
+                to: "https://ryczko.github.io/Coronavirus-react/"
+            },
 
             {
                 title: "Coronavirus app",
