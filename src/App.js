@@ -16,19 +16,23 @@ import { pl } from './content/pl';
 function App() {
 
   const [content, setContent] = useState(en)
-
+  const [languageChecked, setLanguageChecked] = useState(false);
 
 
 
   const handleCheck = (e) => {
-    if (e.target.checked) setContent(pl)
-    else setContent(en)
-
+    if (e.target.checked) setContent(pl);
+    else setContent(en);
+    setLanguageChecked(!languageChecked);
   }
 
 
 
   useEffect(() => {
+    if (window.navigator.language === "pl-PL") {
+      setContent(pl);
+      setLanguageChecked(true)
+    }
     document.addEventListener('scroll', () => {
       const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
       const scrollPos = document.documentElement.scrollTop;
@@ -46,7 +50,7 @@ function App() {
   return (
 
     < div className="wrapper" >
-      <Home content={content.home} check={handleCheck} />
+      <Home content={content.home} check={handleCheck} isChecked={languageChecked} />
       <Header content={content.header} />
       <About content={content.about} />
       <Knowladge content={content.knowladge} />

@@ -51,18 +51,18 @@
   }
   .waveTop {
     background-size: 50% 100px;
-    background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png');
+    background-image: url('../../img/background/wave-top.webp');
   }
   .waveAnimation .waveTop {
-    will-change: transform;
-  animation: move-wave 3s;
+  //  will-change: transform;
+  // animation: move-wave 3s;
   //  -webkit-animation: move-wave 3s;
   //  -webkit-animation-delay: 1s;
-  // animation-delay: 1s ;
+  //  animation-delay: 1s ;
   }
   .waveMiddle {
     background-size: 50% 120px;
-    background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png');
+    background-image: url('../../img/background/wave-mid.webp');
   }
   .waveAnimation .waveMiddle {
     will-change: transform;
@@ -72,7 +72,7 @@
     background-size: 50% 100px;
   }
   .waveAnimation .waveBottom {
-    //will-change: transform;
-   // animation: move_wave 15s  infinite linear;
-    background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png');
+    // will-change: transform;
+    // animation: move_wave 15s  infinite linear;
+    background-image: url('../../img/background/wave-bot.webp');
   }

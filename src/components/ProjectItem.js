@@ -5,7 +5,7 @@ function ProjectItem(props) {
 
 
     const bgStyle = {
-        backgroundImage: `url(${require('../img/projects/' + props.bg + '.png')})`,
+        backgroundImage: `url(${require('../img/projects/' + props.bg + '.webp')})`,
         flexBasis: (props.big) ? '50%' : '33%'
     }
 

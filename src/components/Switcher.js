@@ -4,7 +4,7 @@ function Switcher(props) {
     return (
         <div className="switcher">
 
-            <input type="checkbox" onChange={props.check} />
+            <input type="checkbox" onChange={props.check} checked={props.isChecked} />
         </div>
     );
 }

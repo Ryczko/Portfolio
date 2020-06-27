@@ -17,12 +17,12 @@ function Projects(props) {
 
 
     return (
-        <div className="projects" id="projects">
+        <section className="projects" id="projects">
             <h1 data-aos="fade-down" data-aos-once="true">{props.content.h1}</h1>
             <div className="projects__items" data-aos="fade-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="200">
                 {items}
             </div>
-        </div>
+        </section>
     );
 }
 

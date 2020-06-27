@@ -13,7 +13,7 @@ function Knowladge(props) {
 
 
     return (
-        <div className="knowladge" id="knowladge">
+        <section className="knowladge" id="knowladge">
             <div className="knowladge__wrapper">
                 <h1 data-aos="zoom-out-up" data-aos-once="true" data-aos-duration="500">{props.content.h1}</h1>
                 <div className="knowladge__content">
@@ -43,7 +43,7 @@ function Knowladge(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

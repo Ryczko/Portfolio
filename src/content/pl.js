@@ -54,13 +54,13 @@ export const pl = {
                 to: "https://ryczko.github.io/Coronavirus-react/"
             },
             {
-                title: "calculator",
+                title: "Kalkulator",
                 description: "Zaawansowany kalkulator, z możliwością zamiany walut na złotówki",
                 bg: "calculator",
                 to: "https://ryczko.github.io/Intive-Patronage-NBP-API-Calculator/"
             },
             {
-                title: "Moving shadows generator",
+                title: "Generator ruchomych cieni ",
                 description: "Aplikacja generująca kod tworzący ruchome cienie na ruch myszki",
                 bg: "shadow",
                 to: "https://ryczko.github.io/Moving-font-shadows-generator/"
