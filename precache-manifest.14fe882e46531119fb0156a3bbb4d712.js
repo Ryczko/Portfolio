@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53bb06970997fed2c5b9248f3c9ba03f",
+    "revision": "346718b50b6199c00ec34419cb532aca",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "9963e1c2c71a4130b1e1",
+    "revision": "035673b2ff8b21158af2",
     "url": "/Portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "4616e1bf0d7f7c714789",
-    "url": "/Portfolio/static/css/main.e8b346c8.chunk.css"
+    "revision": "002ccb360dc6347849a4",
+    "url": "/Portfolio/static/css/main.92934ef4.chunk.css"
   },
   {
-    "revision": "9963e1c2c71a4130b1e1",
-    "url": "/Portfolio/static/js/2.6ba892db.chunk.js"
+    "revision": "035673b2ff8b21158af2",
+    "url": "/Portfolio/static/js/2.0c672ffd.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Portfolio/static/js/2.6ba892db.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.0c672ffd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4616e1bf0d7f7c714789",
-    "url": "/Portfolio/static/js/main.18ee560c.chunk.js"
+    "revision": "002ccb360dc6347849a4",
+    "url": "/Portfolio/static/js/main.ba6d9eb0.chunk.js"
   },
   {
     "revision": "9da7e9aca51c2cf80e94",
@@ -38,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c15b3d52d67a7d3779db1b8018bb5f90",
     "url": "/Portfolio/static/media/corona.c15b3d52.webp"
+  },
+  {
+    "revision": "1da029b3c1a275f00a75e7bb3ab8d9db",
+    "url": "/Portfolio/static/media/firebase.1da029b3.png"
+  },
+  {
+    "revision": "1da029b3c1a275f00a75e7bb3ab8d9db",
+    "url": "/Portfolio/static/media/firebase.1da029b3.webp"
   },
   {
     "revision": "60384a904d57c32996a6f75298a352c8",
@@ -80,8 +88,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/mail.0239bd87.png"
   },
   {
+    "revision": "ed88e74ed1e88b478f186ae7a024f6d5",
+    "url": "/Portfolio/static/media/node.ed88e74e.png"
+  },
+  {
     "revision": "8c8dcf0da3d1579ffe767dc718b0f330",
     "url": "/Portfolio/static/media/poland-flag.8c8dcf0d.png"
+  },
+  {
+    "revision": "96dff9b90353fc43dc3ffbf23b4eaa75",
+    "url": "/Portfolio/static/media/redux.96dff9b9.png"
+  },
+  {
+    "revision": "96dff9b90353fc43dc3ffbf23b4eaa75",
+    "url": "/Portfolio/static/media/redux.96dff9b9.webp"
   },
   {
     "revision": "ac9cb47b67d70dc44a4aee22a0b09871",
