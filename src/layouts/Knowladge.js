@@ -6,11 +6,7 @@ import "aos/dist/aos.css";
 
 function Knowladge(props) {
 
-
     AOS.init();
-
-
-
 
     return (
         <section className="knowladge" id="knowladge">
@@ -22,13 +18,11 @@ function Knowladge(props) {
                         <KnowladgeItem name='css' />
                         <KnowladgeItem name='js' />
                         <KnowladgeItem name='react' />
-                        <KnowladgeItem name='git' />
+                        <KnowladgeItem name="redux" />
                         <KnowladgeItem name='wordpress' />
 
                     </div>
                     <img className="knowladge__content-img" src={require('../img/laptop.svg')} alt="photob" data-aos="fade-left" data-aos-duration="800" data-aos-once="true" data-aos-delay="500" />
-
-
 
                 </div>
                 <div data-aos="flip-down" data-aos-duration="700" data-aos-once="true">
@@ -36,9 +30,11 @@ function Knowladge(props) {
                     <div className="knowladge__others">
 
 
-                        <KnowladgeOther name="sass.png" />
-                        <KnowladgeOther name="socket.png" />
 
+                        <KnowladgeOther name="sass.png" />
+                        <KnowladgeOther name='git.png' />
+                        <KnowladgeOther name="firebase.webp" />
+                        <KnowladgeOther name="socket.png" />
 
                     </div>
                 </div>

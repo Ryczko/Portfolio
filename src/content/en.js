@@ -38,7 +38,7 @@ export const en = {
         projectsItems: [
             {
                 title: "Burger app",
-                description: "Burger builder with the possibility of placing orders, adn checking orders history (during construction)",
+                description: "Burger builder with the possibility of placing orders, adn checking orders history.",
                 bg: "burger",
                 to: "https://ryczko.github.io/Coronavirus-react/"
             },
