@@ -10,6 +10,7 @@ function Projects(props) {
             title={el.title}
             description={el.description}
             big={staticItems.projects.projectsItems[index].big}
+            veryBig={staticItems.projects.projectsItems[index].veryBig}
             bg={staticItems.projects.projectsItems[index].bg}
             technologies={staticItems.projects.projectsItems[index].technologies}
             link={staticItems.projects.projectsItems[index].to} />

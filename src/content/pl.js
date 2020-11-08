@@ -35,35 +35,29 @@ export const pl = {
         h1: "projekty",
         projectsItems: [
             {
+                title: "KKBets",
+                description: "Serwis umożliwiający obstawianie wydarzeń sportowych, zbieranie punktów i zdobywanie nagród. (Tylko frontend- backend w trakcie budowy)",
+            },
+            {
                 title: "Burger app",
                 description: "Aplikacja pozwalająca stworzyć swojego burgera, złożyć zamówienie, oraz sprawdzić historię zamówień.",
-                bg: "burger",
-                to: "https://ryczko.github.io/Coronavirus-react/"
             },
             {
                 title: "Labirynt",
                 description: "Serwis z grą planszową, pozwalający na grę online (w trakcie budowy)",
-                bg: "corona",
-                to: "https://ryczko.github.io/Coronavirus-react/"
             },
 
             {
                 title: "Coronavirus app",
                 description: "Statystki, rankingi, oraz wyszukiwarka krajów z informacjami o koronawirusie",
-                bg: "corona",
-                to: "https://ryczko.github.io/Coronavirus-react/"
             },
             {
                 title: "Kalkulator",
                 description: "Zaawansowany kalkulator, z możliwością zamiany walut na złotówki",
-                bg: "calculator",
-                to: "https://ryczko.github.io/Intive-Patronage-NBP-API-Calculator/"
             },
             {
                 title: "Generator ruchomych cieni ",
                 description: "Aplikacja generująca kod tworzący ruchome cienie na ruch myszki",
-                bg: "shadow",
-                to: "https://ryczko.github.io/Moving-font-shadows-generator/"
             }
         ]
     },

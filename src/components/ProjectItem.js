@@ -2,11 +2,19 @@ import React from 'react';
 
 
 function ProjectItem(props) {
-
+    let flexBasis = '33%';
+    if(props.big) {
+        flexBasis = '50%';
+    }
+    if(props.veryBig) {
+        flexBasis = '100%';
+    }
 
     const bgStyle = {
         backgroundImage: `url(${require('../img/projects/' + props.bg + '.webp')})`,
-        flexBasis: (props.big) ? '50%' : '33%'
+        flexBasis: flexBasis,
+        minHeight: props.veryBig ? '600px':'400px',
+        backgroundPosition: props.veryBig ? 'top center' : 'center'
     }
     const technologiesList = props.technologies.map((technology, index) => (
         <img key={index} src={require(`../img/icons/${technology}.png`)} alt={`item${index}`} />

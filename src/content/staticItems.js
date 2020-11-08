@@ -4,6 +4,12 @@ export const staticItems = {
   projects: {
     projectsItems: [
       {
+        bg: "kkbets",
+        technologies: ["react", "redux", "node"],
+        to: "https://kkbets.netlify.app/",
+        veryBig: true,
+      },
+      {
         bg: "burger",
         technologies: ["react", "redux", "firebase", "css"],
         to: "https://ryczko.github.io/Burger-app/",

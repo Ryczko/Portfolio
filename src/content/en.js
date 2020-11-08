@@ -34,38 +34,33 @@ export const en = {
     h1: "projects",
     projectsItems: [
       {
+        title: "KKBets",
+        description:
+          "A website that allows you to bet on sports, collect points and win prizes. (Only frontend- backend under construction)",
+      },
+      {
         title: "Burger app",
         description:
           "Burger builder with the possibility of placing orders, and checking orders history.",
-        bg: "burger",
-        to: "https://ryczko.github.io/Coronavirus-react/",
       },
       {
         title: "Labirynth game service",
         description:
           "Service with a board game that allows you to play online (during construction, no mobile)",
-        bg: "corona",
-        to: "https://ryczko.github.io/Coronavirus-react/",
       },
       {
         title: "Coronavirus app",
         description:
           "Stats, country ranking, and searching informations about Coronavirus",
-        bg: "corona",
-        to: "https://ryczko.github.io/Coronavirus-react/",
       },
       {
         title: "calculator",
         description:
           "Advanced calculator, exchange rates with conversion into PLN",
-        bg: "calculator",
-        to: "https://ryczko.github.io/Intive-Patronage-NBP-API-Calculator/",
       },
       {
         title: "Moving shadows generator",
         description: "App creating code for a shadow that moves on mouse move",
-        bg: "shadow",
-        to: "https://ryczko.github.io/Moving-font-shadows-generator/",
       },
     ],
   },
