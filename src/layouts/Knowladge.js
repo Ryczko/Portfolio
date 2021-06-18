@@ -23,10 +23,11 @@ function Knowladge(props) {
           >
             <KnowladgeItem name="html" />
             <KnowladgeItem name="css" />
-            <KnowladgeItem name="js" />
+            <KnowladgeItem name="typescript" />      
             <KnowladgeItem name="react" />
-            <KnowladgeItem name="redux" />
-            <KnowladgeItem name="wordpress" />
+            <KnowladgeItem name="angular" />
+            <KnowladgeItem name="node" />
+            
           </div>
           <img
             className="knowladge__content-img"
@@ -44,7 +45,7 @@ function Knowladge(props) {
             <KnowladgeOther name="sass.png" />
             <KnowladgeOther name="git.png" />
             <KnowladgeOther name="firebase.webp" />
-            <KnowladgeOther name="node.png" />
+            <KnowladgeOther name="redux.png" />
             <KnowladgeOther name="socket.png" />
           </div>
         </div>

@@ -36,20 +36,15 @@ export const pl = {
         projectsItems: [
             {
                 title: "KKBets",
-                description: "Serwis umożliwiający obstawianie wydarzeń sportowych, zbieranie punktów i zdobywanie nagród. (Tylko frontend- backend w trakcie budowy)",
+                description: "Serwis umożliwiający obstawianie wydarzeń sportowych, zbieranie punktów i zdobywanie nagród",
             },
             {
-                title: "Burger app",
-                description: "Aplikacja pozwalająca stworzyć swojego burgera, złożyć zamówienie, oraz sprawdzić historię zamówień.",
+                title: "Boolean algebra chart drawer",
+                description: "Program generujący wykresy stanów po wpisaniu wyrażenia",
             },
             {
                 title: "Labirynt",
                 description: "Serwis z grą planszową, pozwalający na grę online (w trakcie budowy)",
-            },
-
-            {
-                title: "Coronavirus app",
-                description: "Statystki, rankingi, oraz wyszukiwarka krajów z informacjami o koronawirusie",
             },
             {
                 title: "Kalkulator",

@@ -36,22 +36,16 @@ export const en = {
       {
         title: "KKBets",
         description:
-          "A website that allows you to bet on sports, collect points and win prizes. (Only frontend- backend under construction)",
+          "A website that allows you to bet on sports, collect points and win prizes.",
       },
       {
-        title: "Burger app",
-        description:
-          "Burger builder with the possibility of placing orders, and checking orders history.",
+        title: "Boolean algebra chart drawer",
+        description: "Program that generates state graphs after entering the expression",
       },
       {
         title: "Labirynth game service",
         description:
           "Service with a board game that allows you to play online (during construction, no mobile)",
-      },
-      {
-        title: "Coronavirus app",
-        description:
-          "Stats, country ranking, and searching informations about Coronavirus",
       },
       {
         title: "calculator",

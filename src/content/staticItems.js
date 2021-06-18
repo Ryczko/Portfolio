@@ -5,14 +5,14 @@ export const staticItems = {
     projectsItems: [
       {
         bg: "kkbets",
-        technologies: ["react", "redux", "node"],
-        to: "https://kkbets.netlify.app/",
+        technologies: ["react",  "redux", "node"],
+        to: "https://kkbets.herokuapp.com/",
         veryBig: true,
       },
       {
-        bg: "burger",
-        technologies: ["react", "redux", "firebase", "css"],
-        to: "https://ryczko.github.io/Burger-app/",
+        bg: "boolean",
+        technologies: ["js", "html", "css"],
+        to: "https://ryczko.github.io/Boolean-algebra-chart-drawer/",
         big: true,
       },
       {
@@ -20,11 +20,6 @@ export const staticItems = {
         to: "https://labyrinthgame.herokuapp.com/",
         technologies: ["js", "socket", "node", "html", "css"],
         big: true,
-      },
-      {
-        bg: "corona",
-        technologies: ["react", "css"],
-        to: "https://ryczko.github.io/Coronavirus-react/",
       },
       {
         bg: "calculator",
